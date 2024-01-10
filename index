@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+
+
+
+</head>
+<script>
+
+    function changeFrameTo(src) {
+        document.getElementById("sprak").src = src;
+
+
+    }
+
+</script>
+<body>
+
+
+<div class="grid-container">
+    <div class="item1">
+
+        <div class="flex-container" >
+
+            <div>
+            </div>
+            <div><button type="button" onclick="location.href='frame_1.html'"> python </button> </div>
+
+            <div><button type="button" onclick="location.href='frame_2.html'"> java </button> </div>
+            <div><button type="button" onclick="location.href='frame_3.html'"> c++ </button> </div>
+        </div>
+    </div>
+
+    <div style="flex-direction: column;display: flex;" >
+
+        <div><button type="button" onclick="changeFrameTo('java 1.html')">metod</button></div>
+        <div><button type="button" onclick="changeFrameTo('java 2.html')">class</button></div>
+    </div>
+
+    <div class="item3" ><iframe  id="sprak" src="python1.html"  title="Iframe of mini-site"></iframe></div>
+
+
+
+
+
+    <div class="item5"><div class="flex-container" >
+
+        <div>
+            <img src="Bilder/math1.png"  style="width:100%; height: auto">
+        </div>
+        <div>
+            <img src="Bilder/math2.png"  style="width:100%;height: auto">
+        </div>
+        <div>
+            <img src="Bilder/Math3.png"  style="width:100%;height: auto">
+        </div>
+
+
+
+    </div></div>
+    <div class="item6">info</div>
+</div>
+
+
+</body>
+</html>
